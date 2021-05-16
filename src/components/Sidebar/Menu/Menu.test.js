@@ -8,11 +8,18 @@ describe('Menu', () => {
     menu: [
       {
         label: 'Item 0',
-        path: '/#0/'
+        path: '/#0/',
+        target: 'internal'
       },
       {
         label: 'Item 1',
-        path: '/#1/'
+        path: '/#1/',
+        target: 'external'
+      },
+      {
+        label: 'Item 2',
+        path: '/#2/',
+        target: 'internal'
       }
     ]
   };

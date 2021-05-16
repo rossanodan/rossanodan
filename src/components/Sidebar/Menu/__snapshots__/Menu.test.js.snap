@@ -23,8 +23,19 @@ exports[`Menu renders correctly 1`] = `
       <a
         className="menu__list-item-link"
         href="/#1/"
+        target="_blank"
       >
         Item 1
+      </a>
+    </li>
+    <li
+      className="menu__list-item"
+    >
+      <a
+        className="menu__list-item-link"
+        href="/#2/"
+      >
+        Item 2
       </a>
     </li>
   </ul>

@@ -13,11 +13,18 @@ module.exports = {
   menu: [
     {
       label: 'Articles',
-      path: '/'
+      path: '/',
+      target: 'internal'
     },
     {
       label: 'About me',
-      path: '/pages/about'
+      path: '/pages/about',
+      target: 'internal'
+    },
+    {
+      label: 'DEV',
+      path: 'https://dev.to/rossanodan',
+      target: 'external'
     }
   ],
   author: {
