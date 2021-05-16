@@ -1,14 +1,14 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://www.rossanodan.me',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Blog by Rossano D\'Angelo',
+  subtitle: 'A blog by Rossano D\'Angelo',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: '',
   useKatex: false,
   menu: [
     {
@@ -21,19 +21,19 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Rossano D\'Angelo',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'Application engineer at The LEGO Group in London. I like reading manga. My opinions are my own.',
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '',
+      email: 'rossanodan@gmail.com',
+      facebook: 'rossanodan',
+      telegram: '',
+      twitter: 'rossanodan',
+      github: 'rossanodan',
+      rss: 'https://www.rossanodan.me/rss.xml',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: 'rossanodan',
+      instagram: 'rossanodan',
       line: '',
       gitlab: '',
       weibo: '',
