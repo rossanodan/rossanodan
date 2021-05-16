@@ -12,7 +12,6 @@
     &-link {
       color: $color-secondary;
       font-size: 26px;
-      font-weight: bold;
 
       &:hover,
       &:focus {
@@ -35,7 +34,6 @@
     &-link {
       color: $color-secondary;
       font-size: 26px;
-      font-weight: bold;
 
       &:hover,
       &:focus {
@@ -46,7 +44,6 @@
         pointer-events: none;
         color: lighten($color-gray, 20%);
       }
-
     }
 
   }
