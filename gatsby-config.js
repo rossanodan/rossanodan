@@ -137,16 +137,6 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/index.js`
       }
     },
-    // TODO: To remove gatsby-plugin-google-gtag from dependecies
-    // {
-    //   resolve: 'gatsby-plugin-google-gtag',
-    //   options: {
-    //     trackingIds: [siteConfig.googleAnalyticsId],
-    //     pluginConfig: {
-    //       head: true
-    //     }
-    //   }
-    // },
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
