@@ -1,7 +1,7 @@
 
 # A blog by Rossano D'Angelo
 
-This repository contains the code of my personal blog, [rossanodan.me](https://www.rossanodan.me/).
+This repository contains the code of my blog, [rossanodan.me](https://www.rossanodan.me/).
 
 
 ## Authors
