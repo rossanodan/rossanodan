@@ -1,23 +1,17 @@
 /**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
- */
-
-/**
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `rossanodan.dev`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Rossano D'Angelo`,
+      summary: `Software engineer in the United Kingdom. When I don't write code, I read comic books and manga.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Personal blog by Rossano D'Angelo`,
+    siteUrl: `https://rossanodan.dev`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `rossanodan`,
     },
   },
   plugins: [
@@ -25,7 +19,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
+        path: `${__dirname}/src/blog`,
         name: `blog`,
       },
     },
@@ -110,8 +104,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `Gatsby`,
+        name: `rossanodan.dev`,
+        short_name: `rossanodan.dev`,
         start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
