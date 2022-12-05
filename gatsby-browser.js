@@ -8,3 +8,7 @@ import "./src/style.css"
 
 // Highlighting for code blocks
 import "prismjs/themes/prism.css"
+
+// Vercel Analytics
+import { inject } from '@vercel/analytics';
+inject();
