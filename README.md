@@ -9,4 +9,3 @@ To run locally, run `npm install`, then `npm start`, then open https://localhost
 ## Acknowledgments
 
 Forked from Gatsby blog starter.
-
