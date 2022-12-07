@@ -48,12 +48,12 @@ module.exports = {
           },
           `gatsby-remark-prismjs`,
           {
-            resolve: "gatsby-remark-external-links",
+            resolve: 'gatsby-remark-external-links',
             options: {
-              target: "_blank",
-              rel: "nofollow noopener noreferrer"
-            }
-          }
+              target: '_blank',
+              rel: 'nofollow noopener noreferrer',
+            },
+          },
         ],
       },
     },
